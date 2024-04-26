@@ -16,7 +16,20 @@
    cd nvr-demo
    mkdir hisi
 8. 解压nvr_target.tar.bz 到/home/nvr-demo/hisi
-  tar -jxvf nvr_source_code.tar.bz -C /home/nvr-demo/hisi
-9. 
-10. 
+  tar -jxvf nvr_target.tar.bz -C /home/nvr-demo/hisi
+9. nvr_target 文件名改成 nvr
+  mv nvr_target nvr
+10. 安装make 指令
+  sudo apt-get install make
 11. 
+12. 编译
+  /home/nvr-demo/hisi/nvr_target/buildStaticlibrary.sh
+  /home/nvr-demo/hisi/nvr/source/ProductBuilder/General/General/_8channel_nvr/mkimage.sh
+
+mkimage.sh 执行如果报错，则vim mking.sh
+mksquashfs /home/root/share//ProductBuilder/romfs/   主要是文件路径不对
+创建 nvrdev 目录： 
+  mkdir /home/nvr-demo/hisi/nvrdev
+14. 
+15. 
+16. 
