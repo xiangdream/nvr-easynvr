@@ -3,7 +3,7 @@
 1. 切换到 root 权限
   sudo su，提示输入密码，输入密码即可
 2. 安装vim
-  sudo apt install vim
+ sudo apt install vim
 3. 添加环境变量
   vim  /etc/profile 修改环境变量
   添加到最后：
