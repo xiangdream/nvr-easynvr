@@ -40,7 +40,7 @@ sudo apt-get install make
 ```
 9. 编译
   ```java
-/home/nvr-demo/hisi/nvr_target/buildStaticlibrary.sh
+/home/nvr-demo/hisi/nvr/buildStaticlibrary.sh
   /home/nvr-demo/hisi/nvr/source/ProductBuilder/General/General/_8channel_nvr/mkimage.sh
 ```
 
