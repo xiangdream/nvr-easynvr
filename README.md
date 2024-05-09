@@ -8,8 +8,9 @@
 
 ```
 
-3. 添加环境变量
+3. 添加海思编译环境
   ```java
+ tar -jxvf  /home/ipc/hisi-linux-nptl.tar.bz -C /opt
   vim  /etc/profile 修改环境变量
   添加到最后：
   export PATH="/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin:$PATH"
