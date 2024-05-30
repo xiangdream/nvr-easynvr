@@ -113,4 +113,6 @@ make all
    chmod 777 build.sh
    ```
 
+# ubuntu 共享 git id_rsa
+![fb7365bcfc57083009897296343ffd2](https://github.com/xiangdream/nvr-easynvr/assets/1407942/ae07b575-75f6-4335-82fc-779a6f13328d)
 
